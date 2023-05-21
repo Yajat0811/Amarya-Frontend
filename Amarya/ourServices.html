@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <style>
+    body{
+      background:#76D7C4;
+      background:url(https://wallpapercave.com/wp/wp2175829.jpg);
+      background:url(https://img.freepik.com/free-vector/abstract-digital-grid-vector-black-background_53876-111550.jpg);
+      background:url(https://wallpapercave.com/wp/wp1973370.png);
+      /* background:url(https://cdn.wallpapersafari.com/50/55/lRu7W0.gif); */
+
+      /* background:url(https://img.freepik.com/free-vector/abstract-digital-grid-vector-black-background_53876-111550.jpg); */
+    }
+    .services {
+      text-align: center;
+      font-size: xx-large;
+      font-weight: 500;
+      font-style: italic;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      height:20vh;
+      /* background-color:coral; */
+      /* background:url(https://i.pinimg.com/originals/5d/32/80/5d3280a6770c908fa27121bff86de236.jpg); */
+      /* background:url(https://img.freepik.com/free-vector/abstract-digital-grid-vector-black-background_53876-111550.jpg); */
+      margin-bottom:15mm;
+      
+    }
+    .services:hover{
+      background: transparent;
+    }
+    p{
+      padding-top:12mm;
+
+    }
+    p:hover{
+      color:maroon;
+    }
+    #p1{
+      padding-top:12mm;
+      color:whitesmoke;
+      font-size:xxx-large;
+
+    }
+    #p1:hover{
+      color:darkorange;
+    }
+    .cardbox {
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom:5mm;
+
+
+    }
+
+    .cardbox1 {
+      display: flex;
+      justify-content: space-evenly;
+
+
+    }
+
+    /* #card1{
+        text-shadow: #76D7C4;
+    } */
+
+    img{
+          height:250px;
+        }
+      @media (min-width:350px) and (max-width:600px){
+        .cardbox1 {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+        justify-content: space-between;
+        margin-left: 20mm;
+        /* padding-left: 10mm; */
+
+
+    }
+    .cardbox{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+
+        margin-left:20mm;
+
+
+    }
+    #card1{
+      margin-bottom:5mm;
+    }
+    #card2{
+      margin-bottom:5mm;
+    }
+    #card3{
+      margin-bottom:5mm;
+    }
+    #card4{
+      margin-bottom:5mm;
+    }
+  }
+
+    @media (min-width:601px) and (max-width:900px){
+        .cardbox1 {
+        display: flex;
+        /* flex-direction:column; */
+        justify-content: space-evenly;
+        /* justify-content: space-between; */
+        /* margin-left: 20mm; */
+        /* padding-left: 10mm; */
+
+
+    }
+    .cardbox{
+        display: flex;
+        /* flex-direction:column; */
+        justify-content: space-evenly;
+
+        /* margin-left:20mm; */
+
+
+    }
+    #card1{
+      margin-right:5mm;
+      margin-left:5mm
+    }
+    #card2{
+      margin-right:5mm;
+    }
+    #card3{
+      margin-right:5mm;
+    }
+     
+    }
+  </style>
+</head>
+
+<body>
+  <div class="services"><p id="p1">Our Services</p></div>
+
+  <div class="cardbox">
+
+    <!-- This is for Influencer Marketing -->
+    <div id="card1" class="card" style="width: 18rem;">
+      <img src="https://www.shutterstock.com/image-photo/influencer-marketing-text-on-city-260nw-452786680.jpg"
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Influencer Marketing</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Click to learn more</a>
+      </div>
+    </div>
+
+    <!-- This is for PPC Marketing -->
+    <div id="card2" class="card" style="width: 18rem;">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIennGgYoGoj2O8UteAGJERyyLQaoEfFt_VmcnJeKpA5nW7NhI5xhWE3-Ezne6U4nCP2s&usqp=CAU"
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">PPC Marketing</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Click to learn more</a>
+      </div>
+    </div>
+
+    <!-- This is for Hoarding Advertising -->
+    <div id="card3" class="card" style="width: 18rem;">
+      <img src="https://www.myhoardings.com/blog/wp-content/uploads/2017/11/Want-to-invest-in-Me-1.jpg"
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Hoarding Advertising</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Click to learn more</a>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!-- <br> -->
+  <div class="cardbox1">
+    <!-- this is for marketing analytics -->
+    <div id="card4" class="card" style="width: 18rem;">
+      <img src="https://res.cloudinary.com/mailmodo/image/upload/f_webp,q_50/v1651821898/strapi/Frame_103479_d4a53827b8.png"
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Marketing Analytics</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Click to learn more</a>
+      </div>
+    </div>
+
+    <!-- This is for  marketing content creation-->
+    <div class="card" style="width: 18rem;">  
+      <img src="https://www.neelnetworks.com/blog/wp-content/uploads/2016/12/importance-of-content-creation-and-marketing-1024x530.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title">Marketing Content creation</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Click to learn more</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
